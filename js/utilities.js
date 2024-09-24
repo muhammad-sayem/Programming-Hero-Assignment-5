@@ -4,6 +4,7 @@ function getInnerTextValue(id){
 }
 
 function getInputValue(id){
-    const inputValue = parseFloat(document.getElementById(id).value);
+    
+    const inputValue = document.getElementById(id).value;
     return inputValue;
 }
