@@ -8,3 +8,7 @@
 // console.log(typeof num);
 // console.log(typeof newNum);
 // console.log(newNum);
+
+const num = '12';
+
+console.log(isNaN(num)); 
